@@ -1,0 +1,56 @@
+/* Fonts From Google */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --electric-violet: #AD1FEA;
+  --cobalt-blue: #4661E6;
+  --stormy-blue: hsl(230, 31%, 31%);
+  --pure-white: #FFFFFF;
+  --lavender-mist: #f2f4ff;
+  --ice-blue: #f7f8fd;
+  --indigo-night: #3a4374;
+  --slate-gray: #647196;
+  --peachy-coral: #f49f85;
+  --sky-blue: #62BCFA;
+}
+
+/* Typography */
+body {
+  font-family:'Jost', Jost, sans-serif;
+}
+H1 {
+  font-size: 1.5rem;
+  line-height: calc( (35/16) * 1rem);
+  letter-spacing: -0.33;
+  font-weight: 700;
+}
+H2 {
+  font-size: calc( (20/16) * 1rem);
+  line-height: calc( (39/16) * 1rem);
+  letter-spacing: -0.25;
+  font-weight: 700;
+}
+H3 {
+  font-size: calc( (18/16) * 1rem);
+  line-height: calc( (26/16) * 1rem);
+  letter-spacing: -0.25;
+  font-weight: 700;
+}
+H4 {
+  font-size: calc( (14/16) * 1rem);
+  line-height: calc( (20/16) * 1rem);
+  letter-spacing: -0.2;
+  font-weight: 700;
+}
+.body-01 {
+  font-size: 1rem;
+  line-height: calc( (23/16) * 1rem);
+}
+.body-02 {
+  font-size: calc( (15/16) * 1rem);
+  line-height: calc( (22/16) * 1rem);
+}
+.body-03 {
+  font-size: calc( (13/16) * 1rem);
+  line-height: calc( (19/16) * 1rem);
+}
