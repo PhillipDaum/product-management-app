@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import Suggestions from "./pages/suggestions/Suggestions";
-import NewFeedback from "./pages/newfeedback/NewFeedback";
+import Suggestions from "./pages/Suggestions/Suggestions";
+import NewFeedback from "./pages/NewFeedback/NewFeedback.jsx"
 import "./Reset.css";
 import "./App.css";
 

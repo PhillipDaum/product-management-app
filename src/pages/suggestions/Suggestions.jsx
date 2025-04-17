@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Nav from "../../components/nav/Nav";
-import FeedbackCard from "../../components/feedbackcard/FeedbackCard";
+import Nav from "../components/Nav/Nav";
+import FeedbackCard from "../components/FeedbackCard/FeedbackCard.jsx";
 import "./Suggestions.css";
 import { GiWrappedHeart } from "react-icons/gi";
 
