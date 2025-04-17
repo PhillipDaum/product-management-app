@@ -1,4 +1,4 @@
-import "./FeedbackCard.css";
+import "src/components/feedbackcard/FeedbackCard.css";
 // icons: speach bubble
 
 function FeedbackCard(item) {
