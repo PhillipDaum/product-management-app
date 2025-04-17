@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { LiaBarsSolid } from "react-icons/lia";
-import "./Nav.css";
+import "./nav.css";
 
 function Nav({ selectByCategory }) {
   const categories = ["UI", "UX", "Enhancement", "Bug", "Feature"];
