@@ -1,12 +1,12 @@
-import "./App.css";
+import "./FeedbackCard.css"
 // icons: speach bubble
 
-function FeedbackCard() {
+function FeedbackCard(item) {
   return (
-    <div>
-      <h3>Title</h3>
-      <p>description</p>
-      <button>category</button>
+    <div className="feedback-card">
+      <h3>{item.item.title}</h3>
+      <p>{item.item.detail}</p>
+      <button>{item.item.category}</button>
       {/* can add later: upvotes and comments + count*/}
     </div>
   );

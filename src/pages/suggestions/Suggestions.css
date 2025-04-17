@@ -1,0 +1,32 @@
+.suggestions-header {
+    background-color: var(--stormy-blue);
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: row;
+
+}
+
+.no-feedback-yet-card {
+    background-color: var(--pure-white);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.header-hidden-small {
+    display: none;
+}
+.header-hidden-medium {
+    display: flex;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+    .header-hidden-small {
+        display: flex;
+    }
+    .header-hidden-medium {
+        display: none;
+    }
+}

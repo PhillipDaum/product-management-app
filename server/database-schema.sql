@@ -7,7 +7,7 @@
 
 -- suggestions
 -- id, title, category, etc... 
-CREATE TYPE suggestion_category AS ENUM ('Feature', 'UI', 'UX', 'Enhancement', 'Bug', 'Feature');
+CREATE TYPE suggestion_category AS ENUM ('Feature', 'UI', 'UX', 'Enhancement', 'Bug');
 CREATE TABLE suggestions (
     id SERIAL PRIMARY KEY,
     title VARCHAR,

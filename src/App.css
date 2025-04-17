@@ -1,1 +1,45 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-wrapper {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+/* buttons */
+.button-01 {
+
+}
+.button-03 {
+
+}
+.go-back-button {
+
+}
+
+/* pills */
+.pill-01 {
+    
+
+}
+
+/* remove padding or whatever above <p>s */
 /* remove border from all fieldsets */
+
+
+/* media queries */
+@media (min-width: 768px) {
+    .main-content-wrapper {
+        margin: 4rem;
+    }
+}
+@media (min-width: 950px) {
+    .main-content-wrapper {
+        margin: 6rem;
+    }
+}
