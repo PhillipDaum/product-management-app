@@ -8,7 +8,7 @@ export default defineConfig({
       '/api': {
         target: 'https://product-management-app-1vik.onrender.com',
         changeOrigin: true,
-        secure: false,
+        secure: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
