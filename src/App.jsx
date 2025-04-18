@@ -15,6 +15,7 @@ function App() {
         method: "GET",
       });
       const data = await response.json();
+      console.log("data", data)
       setSuggestions(data);
     } catch (error) {
       console.error("Error retrieving suggestions:", error);

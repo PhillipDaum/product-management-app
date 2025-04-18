@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Nav from "../../components/Nav/Nav";
 import FeedbackCard from "../../components/FeedbackCard/FeedbackCard.jsx";
 import "./Suggestions.css";
-import { GiWrappedHeart } from "react-icons/gi";
 
 function Suggestions({ suggestions }) {
   const [userSelectedSuggestions, setUserSelectedSuggestions] = useState(null);
