@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Suggestions from "./pages/Suggestions/Suggestions";
-import NewFeedback from "./pages/NewFeedback/NewFeedback.jsx"
+import NewFeedback from "./pages/NewFeedback/NewFeedback.jsx";
 import "./Reset.css";
 import "./App.css";
 
@@ -30,12 +30,17 @@ function App() {
       {/* Login page */}
       {/* OR */}
       {/* router */}
+      <div className="route-width">
         <Routes>
           <Route path="/" element={<Suggestions suggestions={suggestions} />} />
-          <Route path="/new-feedback" element={<NewFeedback setSuggestions={setSuggestions}/>} />
+          <Route
+            path="/new-feedback"
+            element={<NewFeedback setSuggestions={setSuggestions} />}
+          />
           {/* Feedback Detail */}
           {/* Edit Feedback */}
         </Routes>
+      </div>
     </div>
   );
 }

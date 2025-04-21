@@ -57,7 +57,7 @@ function Suggestions({ suggestions }) {
             <img src="./detective.svg" alt="detective illustration" />
             <h1>There is no feedback yet.</h1>
             <p>Got a suggestion? Found a bug that needs to be squashed?</p>
-            <p>We love hearing about new ideas to imrove our app.</p>
+            <p>We love hearing about new ideas to improve our app.</p>
             <button onClick={() => navigate("/new-feedback")}>+ Add Feedback</button>
           </div>
         )}

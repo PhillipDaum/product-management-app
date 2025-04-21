@@ -23,7 +23,7 @@ function NewFeedback({ setSuggestions }) {
       const data = await response.json();
       setSuggestions(data);
     } catch (error) {
-      console.error("Error retrieving suggestions:", error);
+      console.error("Error:", error);
     }
   };
 
