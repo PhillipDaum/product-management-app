@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./NewFeedback.css";
 
-function NewFeedback() {
+function NewFeedback({ setSuggestions }) {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     title: "",

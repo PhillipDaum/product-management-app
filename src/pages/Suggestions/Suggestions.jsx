@@ -58,7 +58,7 @@ function Suggestions({ suggestions }) {
             <h1>There is no feedback yet.</h1>
             <p>Got a suggestion? Found a bug that needs to be squashed?</p>
             <p>We love hearing about new ideas to imrove our app.</p>
-            <button>+ Add Feedback</button>
+            <button onClick={() => navigate("/new-feedback")}>+ Add Feedback</button>
           </div>
         )}
       </div>

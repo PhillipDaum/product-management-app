@@ -15,7 +15,6 @@ function App() {
         method: "GET",
       });
       const data = await response.json();
-      console.log("data", data)
       setSuggestions(data);
     } catch (error) {
       console.error("Error retrieving suggestions:", error);
@@ -33,10 +32,8 @@ function App() {
       {/* router */}
         <Routes>
           <Route path="/" element={<Suggestions suggestions={suggestions} />} />
-          <Route path="/new-feedback" element={<NewFeedback />} />
-          {/* Suggestions */}
+          <Route path="/new-feedback" element={<NewFeedback setSuggestions={setSuggestions}/>} />
           {/* Feedback Detail */}
-          {/* New Feedback */}
           {/* Edit Feedback */}
         </Routes>
     </div>
