@@ -68,6 +68,7 @@ function NewFeedback({ setSuggestions }) {
               value={formData.category}
               onChange={handleChange}
             >
+              <option value="" disabled>--select one--</option>
               <option value="Feature">Feature</option>
               <option value="UI">UI</option>
               <option value="UX">UX</option>
